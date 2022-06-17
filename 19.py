@@ -1,0 +1,7 @@
+file = open('sample.txt', 'w')
+file.write("I am a Python programmer.\nI am happy.")
+file.close()
+file = open('sample.txt', 'r')
+data = file.read()
+print(data)
+file.close()
